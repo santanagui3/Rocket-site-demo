@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background-image: url(./assets/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 0;
+    margin-top: 80px;
+    color: #27065f;
+    text-align: left;
+    margin-left: 45px;
+}
+
+.sub-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    margin-left: 45px;
+    color: #fd157d;
+    text-align: left;
+}
+
+.nav-bar {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+
+header nav li {
+    margin: 0 15px;
+    color: #27065f;
+}
+
+header nav li:hover {
+    color:#fd157d;
+}
+
+#text {
+    color: #1c0346;
+    margin: 0;
+    margin-left: 45px;
+    margin-top: 330px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button {
+    background-color: #fd157d;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 160px;
+    height: 45px;
+    margin: 0;
+    margin-left: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color:#970647;
+}
