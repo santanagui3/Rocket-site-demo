@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-image: url(./assets/gif-bg.gif);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+#title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    margin: 0;
+    margin-top: 80px;
+    color: #FFF;
+    text-align: left;
+    margin-left: 45px;
+}
+
+
+.nav-bar {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}
+
+header nav li {
+    margin: 0 15px;
+    color: #fd157d;
+}
+
+header nav li:hover {
+    color:#FFF;
+}
+
+.exemples {
+    background-color: #2e6875ea;
+    height: 550px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 20px;
+    display: flex;
+
+
+}
+.exemples .card {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exemples .card-images {
+    width: 250px;
+    border-radius: 20px;
+    height: 420px;
+
+}
+.text-card{
+    padding: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Responsividade*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  }
+
+
+/* Landscape phones and down */
+@media (max-width: 480px){
+    body{
+        height: calc(100vw - 55px);
+    }
+ 
+    header nav ul {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 0;
+     margin:0;
+
+     
+     color: white;
+     font-weight: bold;
+     height: 55px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+  }
