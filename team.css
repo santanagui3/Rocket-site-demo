@@ -1,9 +1,7 @@
 body {
-    background-image: url(./assets/bg-2.jpg);
-    margin: 0;
+    margin: 0px;
+    background-image: url(./assets/bg-3.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-
 }
 
 #title {
@@ -16,22 +14,11 @@ body {
     margin-left: 45px;
 }
 
-#sub-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    margin: 0;
-    margin-left: 45px;
-    color: #fd157d;
-    text-align: left;
-}
 
 .nav-bar {
     font-family: 'Roboto', sans-serif;
     list-style: none;
     display: flex;
-
-    
-  
 }
 a {
     text-decoration: none;
@@ -46,27 +33,44 @@ header nav li:hover {
     color:#FFF;
 }
 
-
-button {
-    background-color: #fd157d;
-    font-family: 'Roboto', sans-serif;
-    border: none;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    width: 160px;
-    height: 45px;
-    margin: 0;
+.exemples {
+    background-color: #0f031fec;
+    height: 400px;
     margin-left: 45px;
-    margin-top: 20px;
-    cursor: pointer;
+    margin-right: 45px;
+    border-radius: 20px;
+    display: flex;
+
 
 }
-.btn:hover {
-    background-color:#970647;
+.exemples .card {
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.exemples .card-images {
+    width: 250px;
+    height: 250px;
+    border-radius: 180px;
+    
+
+}
+.text-card{
+    padding: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+.social {
+    padding: 10px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
 /*Responsividade*/
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {  }
@@ -100,3 +104,9 @@ button {
         text-align: center;
     }
   }
+
+/* Portrait tablet to landscape and desktop */
+/*@media (min-width: 768px) and (max-width: 979px) {  }
+
+/* Large desktop */
+/*@media (min-width: 1200px) {  }

@@ -36,11 +36,11 @@ a {
 
 header nav li {
     margin: 0 15px;
-    color: #27065f;
+    color: #fd157d;
 }
 
 header nav li:hover {
-    color:#fd157d;
+    color:#1c0346;
 }
 
 #text {
@@ -71,3 +71,37 @@ button {
 .btn:hover {
     background-color:#970647;
 }
+
+/*Responsividade*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {  }
+
+
+/* Landscape phones and down */
+@media (max-width: 480px){
+    body{
+        height: calc(100vw - 55px);
+    }
+ 
+    header nav ul {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     padding: 0;
+     margin:0;
+
+     
+     color: white;
+     font-weight: bold;
+     height: 55px;
+
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+  }
